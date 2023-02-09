@@ -1,4 +1,4 @@
-<img src="https://drive.google.com/file/d/14FlGOwFdKelRVxch7295i-kBsC_mttIc/view?usp=sharing" high="" width="500">
+<img src="https://cdn.dribbble.com/users/1285930/screenshots/4040291/bash-logo-by-vd_1x.png" high="" width="500">
 
 # System engineering & DevOps - Bash
 
