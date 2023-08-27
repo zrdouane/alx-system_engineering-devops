@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-![Image of a simple web stack](Simple web stack.png)
+![Image of a simple web stack](https://raw.githubusercontent.com/zrdouane/alx-system_engineering-devops/master/0x09-web_infrastructure_design/Simple%20web%20stack.png)
 
 
 ## Description
