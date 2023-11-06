@@ -1,3 +1,5 @@
+![cat logo](https://raw.githubusercontent.com/zrdouane/alx-system_engineering-devops/master/0x19-postmortem/_6395cd10-44f7-4454-9299-ba4a2d7dc7d8.jpeg)
+
 **Issue Summary:**
 
 - **Duration:** 
