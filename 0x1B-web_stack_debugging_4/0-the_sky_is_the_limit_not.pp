@@ -1,11 +1,12 @@
 # Sky is the limit, let's bring that limit higher
 
-exec {'fix the limit':
-  command => "sed -i 's/15/unlimited/' /etc/default/nginx",
-  path    => ['/bin/', '/usr/bin/']
+exec {'replace':
+  provider => shell,
+  command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 4096\"/" /etc/default/nginx',
+  before   => Exec['restart'],
 }
 
--> exec {'restart nginx':
-  command => 'service nginx restart',
-  path    => ['/bin/', '/usr/bin/']
+exec {'restart':
+  provider => shell,
+  command  => 'sudo service nginx restart',
 }
